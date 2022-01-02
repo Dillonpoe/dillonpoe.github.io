@@ -26,7 +26,7 @@ https://templatemo.com/tm-553-xtra-blog
                 <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>            
                 <h1 class="text-center">Dillon Poe</h1>
             </div>
-            <nav class="tm-nav" id="tm-nav">   <!-- Navigation buttons on sidebar -->         
+            <nav class="tm-nav" id="tm-nav">            
                 <ul>
                     <li class="tm-nav-item"><a href="index.html" class="tm-nav-link">
                         <i class="fas fa-home"></i>
@@ -34,27 +34,27 @@ https://templatemo.com/tm-553-xtra-blog
                     </a></li>
                     <li class="tm-nav-item"><a href="experience.html" class="tm-nav-link">
                         <i class="fas fa-pen"></i>
-                        Experience
+                        Experience <!-- was "Single Post" -->
                     </a></li>
                     <li class="tm-nav-item active"><a href="about.html" class="tm-nav-link">
                         <i class="fas fa-users"></i>
-                        About
+                        About <!-- was "About" -->
                     </a></li>
                     <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link">
                         <i class="far fa-comments"></i>
-                        Contact Me
+                        Contact Me <!-- was "Contact Us" -->
                     </a></li>
                 </ul>
             </nav>
-            <div class="tm-mb-65"> <!-- Social media buttons on sidebar -->
+            <div class="tm-mb-65">
                 <a href="https://www.facebook.com/dillon.d.poe" class="tm-social-link">
                     <i class="fab fa-facebook tm-social-icon"></i>
                 </a>
                 <a href="https://twitter.com/poedillon" class="tm-social-link">
                     <i class="fab fa-twitter tm-social-icon"></i>
                 </a>
-                <a href="https://github.com/Dillonpoe" class="tm-social-link">
-                    <i class="fab fa-github tm-social-icon"></i>
+                <a href="https://www.instagram.com/dillonpoe1" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/dillon-poe/" class="tm-social-link">
                     <i class="fab fa-linkedin tm-social-icon"></i>
@@ -67,23 +67,156 @@ https://templatemo.com/tm-553-xtra-blog
     </header>
     <div class="container-fluid">
         <main class="tm-main">
+            <!-- Search form 
             <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button>                                
+                    </form>
+                </div>                
+            </div>            
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <img src="img/about-01.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div> -->
+            <div class="row tm-row"> <!-- removed "tm-mb-40" after tm-row -->
                 <div class="col-12">                    
                     <div class="mb-4">
-                        <h2 class="pt-2 tm-color-primary tm-post-title">About Dillon Poe</h2>
+                        <h2 class="pt-2 tm-color-primary tm-post-title">About Dillon Poe</h2> <!-- removed "tm-mb-40" after pt-2 -->
                         <p>
-                         Dillon Poe graduated from the University of Idaho in 2020 with a Bachelor’s in English with an emphasis in professional writing and minors in computer science and creative writing. Dillon and his wife Heidi have two young children, a 5 year old son and a 3 year old daughter. Dillon has been a homemaker and stay at home father while getting his degree.
+                            Dillon Poe graduated University of Idaho in 2020 with a Bachlors degree in English with an emhpasis in profesional writing and minors in computer science and creative writing.
                         </p>
 			<p>
-                            Currently, Dillon is exploring his many options. Since the start of 2021 Dillon has been working on projects and doing independent online work.
+                            Currently, Dillon is exploring his options. Since the start of 2021 Dillon has been working on projects and doing independant online work.
                         </p>
 			<span class="d-block text-right tm-color-primary">Creative . Curious . Passionate</span>
                     </div>                    
                 </div>
             </div>
-		     <aside class="col-lg-4 tm-aside-col">
+<!--
+            <div class="row tm-row tm-mb-120">
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-bezier-curve fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Background</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Phasellus pulvinar nisl ornare leo porttitor, et vestibulum lorem semper. 
+                            Duis risus ex, molestie sit amet magna in,
+                            pharetra pellentesque est. Curabitur elit metus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-users-cog fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Teamwork</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Suspendisse ullamcorper, mi vel molestie ornare, arcu magna euismod ipsum, in malesuada nulla magna ut enim. 
+                            Morbi lacinia magna sed auctor, vitae nunc cursus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fab fa-creative-commons-sampling fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Our Core Value</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Nunc mi ante, suscipit vel dapibus et, volutpat sit amet ante. In tempor nec sem vitae varius. Aliquam tincidunt orci sem, et imperdiet massa consectetur nec.
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="row tm-row tm-mb-60">
+                <div class="col-12">
+                    <hr class="tm-hr-primary  tm-mb-55">
+                </div>                
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="img/about-02.jpg" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">John Henry</h2>
+                            <h3 class="tm-h3 mb-3">CEO/Founder</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Aliquam non vulputate lectus, vel ultricies diam. Suspendisse at ipsum
+                                hendrerit, vestibulum mi id, mattis tortor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="img/about-03.jpg" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Timy Cake</h2>
+                            <h3 class="tm-h3 mb-3">Project Director</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Quisque in bibendum elit, in egestas turpis. Vestibulum ornare sollicitudin congue. 
+                                Aliquam lorem mi, maximus at iaculis ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="img/about-04.jpg" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Jay Zoona</h2>
+                            <h3 class="tm-h3 mb-3">Supervisor</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Maecenas eu mi eu dui cursus consequat non eu metus. Morbi ac
+                                turpis eleifend, commodo purus eget, commodo mauris.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="img/about-05.jpg" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Catherine Soft</h2>
+                            <h3 class="tm-h3 mb-3">Team Leader</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Integer eu sapien hendrerit,
+                                imperdiet arcu sit amet, sollicitudin ipsum.
+                                Phasellus consequat suscipit ligula eget bibendum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+-->
+		                <aside class="col-lg-4 tm-aside-col">
                     <div class="tm-post-sidebar">
                         <hr class="mb-3 tm-hr-primary">
+			    <!-- takes out the pics
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="img/img-02.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Duis mollis diam nec ex viverra scelerisque a sit</figcaption>
+                            </figure>
+                        </a>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="img/img-05.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Integer quis lectus eget justo ullamcorper ullamcorper</figcaption>
+                            </figure>
+                        </a>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="img/img-06.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Nam lobortis nunc sed faucibus commodo</figcaption>
+                            </figure>
+                        </a> 		-->
                     </div>                    
                 </aside>
             </div>        
